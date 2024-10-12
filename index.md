@@ -19,7 +19,7 @@ I’m a senior student in the School of Cyber Security at Xidian University. I a
 
 I had a wonderful internship experience from 2023-10 to 2024-6 with [Prof. Xinlei He](https://xinleihe.github.io/) and [Prof. Tianshuo Cong](https://tianshuocong.github.io/) at Tsinghua University and Hong Kong University of Science and Technology-Guangzhou.
 
-I can be reached at <span id="_eml" class="gl-eml">someone at example dot com</span>.
+I can be reached at <span id="_eml" class="gl-eml">ang.sagapo at gmail dot com</span>.
 
 <!--[bio][protect]
 <script type="application/javascript">
