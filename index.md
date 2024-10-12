@@ -13,13 +13,13 @@
 
 # J.&nbsp;Doe
 
-<figure class="gl-page-background gl-float-right gl-image-box" style="text-align: center;"><img src="assets/images/hero-image.jpg" alt="A photo of J. Doe" width="160" height="160" style="max-width: 160px;" /></figure>
+<figure class="gl-page-background gl-float-right gl-image-box" style="text-align: center;"><img src="assets/images/photo.jpg" alt="A photo of J. Doe" width="160" height="160" style="max-width: 160px;" /></figure>
 
-I’m a second-year Ph.D. student in unknown discipline, advised by [unknown professor](https://example.com/). I am interested in some unknown specialized sub-area.
+I’m a senior student in the School of Cyber Security at Xidian University. I am also an incoming Ph.D. student at the [Department of Computer Science and Engineering](https://cse.hkust.edu.hk/), [Hong Kong University of Science and Technology(HKUST)](https://hkust.edu.hk/) with the supervision of [Prof. Dongdong She](https://cse.hkust.edu.hk/~dongdong/).
 
-Prior to joining [unknown current university](https://example.com/), I obtained my bachelor’s degree from [unknown previous university](https://example.com/).
+I had a wonderful internship experience from 2023-10 to 2024-6 with [Prof. Xinlei He](https://xinleihe.github.io/) and [Prof. Tianshuo Cong](https://tianshuocong.github.io/) at Tsinghua University and Hong Kong University of Science and Technology-Guangzhou.
 
-I can be reached at <span id="_eml" class="gl-eml">someone at example dot com</span>.
+I can be reached at <span id="_eml" class="gl-eml">ang.sagapo at gmail dot com</span>.
 
 ```bio-remove
 Below we use a simple mechanism to mitigate email address reaping.
