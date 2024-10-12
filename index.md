@@ -13,6 +13,8 @@
 
 # Zesen Liu
 
+\large{[google scholar](https://zsliu2003.github.io/), [github](https://github.com/zsLiu2003)}
+
 <figure class="gl-page-background gl-float-right gl-image-box" style="text-align: center;"><img src="assets/images/photo.jpg" alt="A photo of J. Doe" width="160" height="160" style="max-width: 160px;" /></figure>
 
 I’m a senior student in the School of Cyber Security at Xidian University. I am also an incoming Ph.D. student at the [Department of Computer Science and Engineering](https://cse.hkust.edu.hk/), [Hong Kong University of Science and Technology(HKUST)](https://hkust.edu.hk/) with the supervision of [Prof. Dongdong She](https://cse.hkust.edu.hk/~dongdong/).
