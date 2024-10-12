@@ -66,6 +66,14 @@ To support more information links (e.g., add "slides" or "pdf" links),
 see "builder/marked.0.3.6/bibtex-service.js" line 109.
 }
 
+@pub{
+    author = {Tianshuo Cong, Delong Ran, Zesen Liu, Xinlei He, Yichen Gong, Jinyuan Liu, Qi Li, Anyu Wang, Xiaoyun Wang},
+    title = {Have You Merged My Model? On The Robustness of Large Language Model IP Protection Methods Against Model Merging},
+
+    biosite_url = {[https://arxiv.org/abs/2407.04794](https://arxiv.org/abs/2404.05188)}
+}
+
+```
 @online{GitHub:BibTeXTS,
   author = {Ji Luo},
   title = {{B}ib{T}e{X}-{TS}:
@@ -94,6 +102,7 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
   biosite_venue = {GitHub},
   biosite_demo = {https://katex.org/},
 }
+```
 
 ```
 
