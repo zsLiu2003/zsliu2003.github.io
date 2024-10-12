@@ -19,18 +19,13 @@ I’m a senior student in the School of Cyber Security at Xidian University. I a
 
 I had a wonderful internship experience from 2023-10 to 2024-6 with [Prof. Xinlei He](https://xinleihe.github.io/) and [Prof. Tianshuo Cong](https://tianshuocong.github.io/) at Tsinghua University and Hong Kong University of Science and Technology-Guangzhou.
 
-I can be reached at <span id="_eml" class="gl-eml">ang.sagapo at gmail dot com</span>.
-
-```bio-remove
-Below we use a simple mechanism to mitigate email address reaping.
-Change the encoding for your own email address.
-```
+I can be reached at <span id="_eml" class="gl-eml">someone at example dot com</span>.
 
 <!--[bio][protect]
 <script type="application/javascript">
 window.setTimeout(function ()
 {
-var addr = [115,111,109,101,111,110,101,64,101,120,97,109,112,108,101,46,99,111,109];
+var addr = [97,110,103,46,115,97,103,97,112,111,64,103,109,97,105,108,46,99,111,109];
 addr = String.fromCharCode.apply(String, addr);
 var eml = document.getElementById('_eml');
 eml.innerHTML = '<a href="mailto:' + addr + '">' + addr + '</a>';
@@ -39,19 +34,16 @@ eml.removeAttribute('class');
 </script>
 [bio]-->
 
-```
-This is an example personal homepage built with [bio-site](https://github.com/GeeLaw/bio-site). It features simplicity and integration with BibTeX.
-```
+<!--This is an example personal homepage built with [bio-site](https://github.com/GeeLaw/bio-site). It features simplicity and integration with BibTeX. -->
 
 ## Pre-prints
 
 ```blog-bib
 
-@pre{
-    author = {Zesen Liu, Tianshuo Cong, Xinlei He, Qi Li},
+@pub{
+    author = {Zesen Liu and Tianshuo Cong and Xinlei He and Qi Li},
     title = {On Evaluating The Performance of Watermarked Machine-Generated Texts Under Adversarial Attacks},
-
-    biosite_url = {https://arxiv.org/abs/2407.04794}
+    biosite_url = {https://arxiv.org/abs/2407.04794},
 }
 
 ```
@@ -71,15 +63,15 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
 }
 
 @pub{
-    author = {Tianshuo Cong, Delong Ran, Zesen Liu, Xinlei He, Yichen Gong, Jinyuan Liu, Qi Li, Anyu Wang, Xiaoyun Wang},
+    author = {Tianshuo Cong and Delong Ran and Zesen Liu and Xinlei He and Yichen Gong and Jinyuan Liu and Qi Li and Anyu Wang and Xiaoyun Wang},
     title = {Have You Merged My Model? On The Robustness of Large Language Model IP Protection Methods Against Model Merging},
-
-    biosite_url = {[https://arxiv.org/abs/2407.04794](https://arxiv.org/abs/2404.05188)}
+    biosite_url = {[https://arxiv.org/abs/2407.04794](https://arxiv.org/abs/2404.05188)},
+    biosite_venue = {The 1th ACM Workshop On Large AI Systems And Models With Privacy And Safety Analysis, co-located with CCS (CCS-LAMPS'24), Salt Lake City, USA. (Best paper award)},
 }
 
 ```
 
-```
+<!-- ```
 @online{GitHub:BibTeXTS,
   author = {Ji Luo},
   title = {{B}ib{T}e{X}-{TS}:
@@ -108,11 +100,17 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
   biosite_venue = {GitHub},
   biosite_demo = {https://katex.org/},
 }
-```
+``` -->
+
+## Honors and Awards
++ 2024.06 Qi'an Xin First Prize Scholarship
++ 2024.10 National Scholarship
++ 2023.11 Third Prize of National Cryptography Competition
 
 ## Experience
++ Research Intern, Tsinghua University \& Hong Kong University of Science and Technology-Guangzhou, 2023.10-2024.7 
 
-```blog-bib
+<!-- ```blog-bib
 @misc{Example1,
   author = {First Author and Second Author},
   title = {Title without Equation}
@@ -147,4 +145,8 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
   biosite_url = {#},
   biosite_arialabel = {Link with Annotated Equation e to the i times pi plus one equals zero}
 }
-```
+``` -->
+
+## Academic Service
+
+## Teaching Experience
