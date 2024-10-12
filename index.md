@@ -45,12 +45,16 @@ This is an example personal homepage built with [bio-site](https://github.com/Ge
 
 ## Pre-prints
 
+```blog-bib
+
 @pre{
     author = {Zesen Liu, Tianshuo Cong, Xinlei He, Qi Li},
     title = {On Evaluating The Performance of Watermarked Machine-Generated Texts Under Adversarial Attacks},
 
     biosite_url = {https://arxiv.org/abs/2407.04794}
 }
+
+```
 
 ## Publications
 
@@ -72,6 +76,8 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
 
     biosite_url = {[https://arxiv.org/abs/2407.04794](https://arxiv.org/abs/2404.05188)}
 }
+
+```
 
 ```
 @online{GitHub:BibTeXTS,
@@ -102,8 +108,6 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
   biosite_venue = {GitHub},
   biosite_demo = {https://katex.org/},
 }
-```
-
 ```
 
 ## Experience
