@@ -41,7 +41,7 @@ eml.removeAttribute('class');
 ```blog-bib
 
 @pub{
-    author = {Zesen Liu and Tianshuo Cong and Xinlei He and Qi Li},
+    author = {\textbf{Zesen Liu} and Tianshuo Cong and Xinlei He and Qi Li},
     title = {On Evaluating The Performance of Watermarked Machine-Generated Texts Under Adversarial Attacks},
     biosite_url = {https://arxiv.org/abs/2407.04794},
 }
@@ -63,7 +63,7 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
 }
 
 @pub{
-    author = {Tianshuo Cong and Delong Ran and Zesen Liu and Xinlei He and Yichen Gong and Jinyuan Liu and Qi Li and Anyu Wang and Xiaoyun Wang},
+    author = {Tianshuo Cong and Delong Ran and \textbf{Zesen Liu} and Xinlei He and Yichen Gong and Jinyuan Liu and Qi Li and Anyu Wang and Xiaoyun Wang},
     title = {Have You Merged My Model? On The Robustness of Large Language Model IP Protection Methods Against Model Merging},
     biosite_url = {[https://arxiv.org/abs/2407.04794](https://arxiv.org/abs/2404.05188)},
     biosite_venue = {The 1th ACM Workshop On Large AI Systems And Models With Privacy And Safety Analysis, co-located with CCS (CCS-LAMPS'24), Salt Lake City, USA. (Best paper award)},
@@ -103,8 +103,8 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
 ``` -->
 
 ## Honors and Awards
-+ 2024.06 Qi'an Xin First Prize Scholarship
 + 2024.10 National Scholarship
++ 2024.06 Qi'an Xin First Prize Scholarship
 + 2023.11 Third Prize of National Cryptography Competition
 
 ## Experience
@@ -147,6 +147,7 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
 }
 ``` -->
 
+<!-- 
 ## Academic Service
 
-## Teaching Experience
+## Teaching Experience -->
