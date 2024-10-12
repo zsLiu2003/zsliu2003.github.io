@@ -108,7 +108,7 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
 + 2023.11 Third Prize of National Cryptography Competition
 
 ## Experience
-+ Research Intern, Tsinghua University \& Hong Kong University of Science and Technology-Guangzhou, 2023.10-2024.7 
++ Research Intern, Tsinghua University & Hong Kong University of Science and Technology-Guangzhou, 2023.10-2024.7 
 
 <!-- ```blog-bib
 @misc{Example1,
