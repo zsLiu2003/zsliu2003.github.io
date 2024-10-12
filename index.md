@@ -39,9 +39,20 @@ eml.removeAttribute('class');
 </script>
 [bio]-->
 
+```
 This is an example personal homepage built with [bio-site](https://github.com/GeeLaw/bio-site). It features simplicity and integration with BibTeX.
+```
 
-## Building Blocks
+## Pre-prints
+
+@pre{
+    author = {Zesen Liu, Tianshuo Cong, Xinlei He, Qi Li},
+    title = {On Evaluating The Performance of Watermarked Machine-Generated Texts Under Adversarial Attacks},
+
+    biosite_url = {https://arxiv.org/abs/2407.04794}
+}
+
+## Publications
 
 ```blog-bib
 
@@ -86,7 +97,7 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
 
 ```
 
-## Accessibility Examples
+## Experience
 
 ```blog-bib
 @misc{Example1,
