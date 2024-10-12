@@ -1,7 +1,7 @@
 ```bio-meta
 {
-    "name": "J. Doe",
-    "title": "J. Doe | Curriculum Vitae",
+    "name": "Zesen Liu",
+    "title": "Hi, I am here!",
     "description": "J. Doe&#8217;s curriculum vitae.",
     "url": "https://GeeLaw.github.io/bio-site/",
     "assets": "https://GeeLaw.github.io/bio-site/assets",
@@ -13,7 +13,7 @@
 
 # Zesen Liu
 
-\large{[google scholar](https://zsliu2003.github.io/), [github](https://github.com/zsLiu2003)}
+[google scholar](https://scholar.google.com/citations?user=8fY3920AAAAJ&hl=zh-CN), [github](https://github.com/zsLiu2003)
 
 <figure class="gl-page-background gl-float-right gl-image-box" style="text-align: center;"><img src="assets/images/photo.jpg" alt="A photo of J. Doe" width="160" height="160" style="max-width: 160px;" /></figure>
 
