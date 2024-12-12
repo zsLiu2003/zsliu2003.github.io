@@ -1,7 +1,7 @@
 ```bio-meta
 {
     "name": "Zesen Liu",
-    "title": "Hi, I am here!",
+    "title": "Hi, there!",
     "description": "J. Doe&#8217;s curriculum vitae.",
     "url": "https://GeeLaw.github.io/bio-site/",
     "assets": "https://GeeLaw.github.io/bio-site/assets",
@@ -15,9 +15,9 @@
 
 <figure class="gl-page-background gl-float-right gl-image-box" style="text-align: center;"><img src="assets/images/photo.jpg" alt="A photo of J. Doe" width="160" height="160" style="max-width: 160px;" /></figure>
 
-I’m a senior student in the School of Cyber Security at Xidian University. I am also an incoming Ph.D. student at the [Department of Computer Science and Engineering](https://cse.hkust.edu.hk/), [Hong Kong University of Science and Technology(HKUST)](https://hkust.edu.hk/) with the supervision of [Prof. Dongdong She](https://cse.hkust.edu.hk/~dongdong/).
+I’m a senior student in the School of Cyber Security at Xidian University. I am also an incoming Ph.D. student at the [Department of Computer Science and Engineering](https://cse.hkust.edu.hk/), Hong Kong University of Science and Technology(HKUST) with the supervision of [Prof. Dongdong She](https://cse.hkust.edu.hk/~dongdong/).
 
-I had a wonderful internship experience from 2023-10 to 2024-6 with [Prof. Xinlei He](https://xinleihe.github.io/) and [Prof. Tianshuo Cong](https://tianshuocong.github.io/) at Tsinghua University and Hong Kong University of Science and Technology-Guangzhou.
+I had a wonderful internship experience from 2023-10 to 2024-6 with [Prof. Xinlei He](https://xinleihe.github.io/) and [Prof. Tianshuo Cong](https://tianshuocong.github.io/) at Tsinghua University and Hong Kong University of Science and Technology(Guangzhou).
 
 I can be reached at <span id="_eml" class="gl-eml">ang.sagapo at gmail dot com</span>, [google scholar](https://scholar.google.com/citations?user=8fY3920AAAAJ&hl=zh-CN), [github](https://github.com/zsLiu2003).
 
@@ -67,6 +67,13 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
     title = {Have You Merged My Model? On The Robustness of Large Language Model IP Protection Methods Against Model Merging},
     biosite_url = {[https://arxiv.org/abs/2407.04794](https://arxiv.org/abs/2404.05188)},
     biosite_venue = {The 1th ACM Workshop On Large AI Systems And Models With Privacy And Safety Analysis, co-located with CCS (CCS-LAMPS'24), Salt Lake City, USA. (Best paper award)},
+}
+
+@pub{
+    author = {Zikai Ye and Xiangyu Wang and \textbf{Zesen Liu} and Zhu Dan and Jianfeng Ma},
+    title = {OBIR-tree: An Efficient Oblivious Index for Spatial Keyword Queries on Secure Enclaves},
+    biosite_url = {[https://zsliu2003.github.io/](https://zsliu2003.github.io/)},
+    biosite_venue = {ACM SIGMOD International Conference on Management of Data (SIGMOD'25)},
 }
 
 ```
