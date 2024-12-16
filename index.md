@@ -65,14 +65,14 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
 @pub{
     author = {Tianshuo Cong and Delong Ran and \textbf{Zesen Liu} and Xinlei He and Yichen Gong and Jinyuan Liu and Qi Li and Anyu Wang and Xiaoyun Wang},
     title = {Have You Merged My Model? On The Robustness of Large Language Model IP Protection Methods Against Model Merging},
-    biosite_url = {[https://arxiv.org/abs/2407.04794](https://arxiv.org/abs/2404.05188)},
+    biosite_url = {https://dl.acm.org/doi/abs/10.1145/3689217.3690614},
     biosite_venue = {The 1th ACM Workshop On Large AI Systems And Models With Privacy And Safety Analysis, co-located with CCS (CCS-LAMPS'24), Salt Lake City, USA. (Best paper award)},
 }
 
 @pub{
     author = {Zikai Ye and Xiangyu Wang and \textbf{Zesen Liu} and Dan Zhu and Jianfeng Ma},
     title = {OBIR-tree: An Efficient Oblivious Index for Spatial Keyword Queries on Secure Enclaves},
-    biosite_url = {[https://zsliu2003.github.io/](https://zsliu2003.github.io/)},
+    biosite_url = {https://zsliu2003.github.io},
     biosite_venue = {ACM SIGMOD International Conference on Management of Data (SIGMOD'25)},
 ```
 
