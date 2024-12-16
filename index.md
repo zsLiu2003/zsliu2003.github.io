@@ -110,6 +110,7 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
 ``` -->
 
 ## Honors and Awards
++ 2024.11 Gratitude to Chinese Modern Scientists Scholarship
 + 2024.10 National Scholarship
 + 2024.06 Qi'an Xin First Prize Scholarship
 + 2023.11 Third Prize of National Cryptography Competition
