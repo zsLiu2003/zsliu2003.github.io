@@ -74,8 +74,6 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
     title = {OBIR-tree: An Efficient Oblivious Index for Spatial Keyword Queries on Secure Enclaves},
     biosite_url = {[https://zsliu2003.github.io/](https://zsliu2003.github.io/)},
     biosite_venue = {ACM SIGMOD International Conference on Management of Data (SIGMOD'25)},
-}
-
 ```
 
 <!-- ```
