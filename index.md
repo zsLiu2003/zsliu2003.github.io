@@ -17,7 +17,7 @@
 
 I’m a senior student in the School of Cyber Engineering at Xidian University. I am also an incoming Ph.D. student at the [Department of Computer Science and Engineering](https://cse.hkust.edu.hk/), Hong Kong University of Science and Technology(HKUST), supervised by [Prof. Dongdong She](https://cse.hkust.edu.hk/~dongdong/).
 
-I had a wonderful internship experience from 2023-10 to 2024-7 with [Prof. Xinlei He](https://xinleihe.github.io/) and [Prof. Tianshuo Cong](https://tianshuocong.github.io/) at Tsinghua University and Hong Kong University of Science and Technology(Guangzhou).
+I had a wonderful internship experience from 2023-10 to 2024-7 with [Prof. Xinlei He](https://xinleihe.github.io/) and [Prof. Tianshuo Cong](https://tianshuocong.github.io/) at Tsinghua University and Hong Kong University of Science and Technology(Guangzhou). During my undergraduate, I spent years in excellent [309-lab](https://xdu-309lab.github.io/archives.html).
 
 I can be reached at <span id="_eml" class="gl-eml">ang.sagapo at gmail dot com</span>, [google scholar](https://scholar.google.com/citations?user=8fY3920AAAAJ&hl=zh-CN), [github](https://github.com/zsLiu2003).
 
