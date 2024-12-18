@@ -15,9 +15,9 @@
 
 <figure class="gl-page-background gl-float-right gl-image-box" style="text-align: center;"><img src="assets/images/photo.jpg" alt="A photo of J. Doe" width="160" height="160" style="max-width: 160px;" /></figure>
 
-I’m a senior student in the School of Cyber Security at Xidian University. I am also an incoming Ph.D. student at the [Department of Computer Science and Engineering](https://cse.hkust.edu.hk/), Hong Kong University of Science and Technology(HKUST) with the supervision of [Prof. Dongdong She](https://cse.hkust.edu.hk/~dongdong/).
+I’m a senior student in the School of Cyber Engineering at Xidian University. I am also an incoming Ph.D. student at the [Department of Computer Science and Engineering](https://cse.hkust.edu.hk/), Hong Kong University of Science and Technology(HKUST), supervised by [Prof. Dongdong She](https://cse.hkust.edu.hk/~dongdong/).
 
-I had a wonderful internship experience from 2023-10 to 2024-6 with [Prof. Xinlei He](https://xinleihe.github.io/) and [Prof. Tianshuo Cong](https://tianshuocong.github.io/) at Tsinghua University and Hong Kong University of Science and Technology(Guangzhou).
+I had a wonderful internship experience from 2023-10 to 2024-7 with [Prof. Xinlei He](https://xinleihe.github.io/) and [Prof. Tianshuo Cong](https://tianshuocong.github.io/) at Tsinghua University and Hong Kong University of Science and Technology(Guangzhou).
 
 I can be reached at <span id="_eml" class="gl-eml">ang.sagapo at gmail dot com</span>, [google scholar](https://scholar.google.com/citations?user=8fY3920AAAAJ&hl=zh-CN), [github](https://github.com/zsLiu2003).
 
