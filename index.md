@@ -13,7 +13,7 @@
 
 # Zesen Liu (刘泽森)
 
-<figure class="gl-page-background gl-float-right gl-image-box" style="text-align: center;"><img src="assets/images/photo1.png" alt="A photo of J. Doe" width="160" height="160" style="max-width: 160px;" /></figure>
+<figure class="gl-page-background gl-float-right gl-image-box" style="text-align: center;"><img src="assets/images/photo1.png" alt="A photo of J. Doe" width="160" height="200" style="max-width: 160px;" /></figure>
 
 I’m a senior student in the School of Cyber Engineering at Xidian University. I am also an incoming Ph.D. student at the [Department of Computer Science and Engineering](https://cse.hkust.edu.hk/), Hong Kong University of Science and Technology (HKUST), supervised by [Prof. Dongdong She](https://cse.hkust.edu.hk/~dongdong/).
 
