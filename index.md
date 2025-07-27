@@ -36,18 +36,6 @@ eml.removeAttribute('class');
 
 <!--This is an example personal homepage built with [bio-site](https://github.com/GeeLaw/bio-site). It features simplicity and integration with BibTeX. -->
 
-## Pre-prints
-
-```blog-bib
-
-@pub{
-    author = {\textbf{Zesen Liu} and Tianshuo Cong and Xinlei He and Qi Li},
-    title = {On Evaluating The Performance of Watermarked Machine-Generated Texts Under Adversarial Attacks},
-    biosite_url = {https://arxiv.org/abs/2407.04794},
-}
-
-```
-
 ## Publications
 
 ```blog-bib
@@ -74,6 +62,18 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
     title = {OBIR-tree: An Efficient Oblivious Index for Spatial Keyword Queries on Secure Enclaves},
     biosite_url = {https://zsliu2003.github.io},
     biosite_venue = {ACM SIGMOD International Conference on Management of Data (SIGMOD'25)},
+```
+
+## Pre-prints
+
+```blog-bib
+
+@pub{
+    author = {\textbf{Zesen Liu} and Tianshuo Cong and Xinlei He and Qi Li},
+    title = {On Evaluating The Performance of Watermarked Machine-Generated Texts Under Adversarial Attacks},
+    biosite_url = {https://arxiv.org/abs/2407.04794},
+}
+
 ```
 
 <!-- ```
