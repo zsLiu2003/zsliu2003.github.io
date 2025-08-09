@@ -15,10 +15,13 @@
 
 <figure class="gl-page-background gl-float-right gl-image-box" style="text-align: center;"><img src="assets/images/photo1.png" alt="A photo of J. Doe" width="160" height="185" style="max-width: 160px;" /></figure>
 
-I’m a senior student in the School of Cyber Engineering at Xidian University. I am also an incoming Ph.D. student at the [Department of Computer Science and Engineering](https://cse.hkust.edu.hk/), Hong Kong University of Science and Technology (HKUST), supervised by [Prof. Dongdong She](https://cse.hkust.edu.hk/~dongdong/).
+I am the first year Ph.D. student at the [Department of Computer Science and Engineering](https://cse.hkust.edu.hk/), Hong Kong University of Science and Technology (HKUST), supervised by [Prof. Dongdong She](https://cse.hkust.edu.hk/~dongdong/).
 
-I had a wonderful research experience from 2023-10 to 2024-7 with [Prof. Xinlei He](https://xinleihe.github.io/) and [Prof. Tianshuo Cong](https://tianshuocong.github.io/). During my undergraduate, I spent wonderful years in the excellent [309-lab](https://xdu-309lab.github.io/archives.html).
+My research focuses on the intersection of AI for Security and Security for AI.
+On the AI for Security side, I leverage large language models (LLMs) and other machine learning techniques to detect and analyze security vulnerabilities in AI agents and traditional software systems.
+On the Security for AI side, I investigate methods to safeguard LLMs themselves, addressing challenges such as watermark robustness, privacy leakage, and prompt injection attacks.
 
+I work with with [Prof. Xinlei He](https://xinleihe.github.io/) and [Prof. Tianshuo Cong](https://tianshuocong.github.io/) from 2023.10 to 2024.7. During my undergraduate, I spent years in the [309-lab](https://xdu-309lab.github.io/archives.html).
 I can be reached at <span id="_eml" class="gl-eml">ang.sagapo at gmail dot com</span>, [google scholar](https://scholar.google.com/citations?user=8fY3920AAAAJ&hl=zh-CN), [github](https://github.com/zsLiu2003).
 
 <!--[bio][protect]
@@ -60,8 +63,9 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
 @pub{
     author = {Zikai Ye and Xiangyu Wang and \textbf{Zesen Liu} and Dan Zhu and Jianfeng Ma},
     title = {OBIR-tree: An Efficient Oblivious Index for Spatial Keyword Queries on Secure Enclaves},
-    biosite_url = {https://zsliu2003.github.io},
+    biosite_url = {https://dl.acm.org/doi/abs/10.1145/3709708},
     biosite_venue = {ACM SIGMOD International Conference on Management of Data (SIGMOD'25)},
+}
 ```
 
 ## Pre-prints
@@ -111,10 +115,10 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
 + 2024.11 Gratitude to Chinese Modern Scientists Scholarship
 + 2024.10 National Scholarship
 + 2024.06 Qi'an Xin First Prize Scholarship
-+ 2023.11 Third Prize of National Cryptography Competition
++ 2023.11 Third Prize of National Cryptography Competition 
 
 ## Experience
-+ Research Intern, Tsinghua University & Hong Kong University of Science and Technology-Guangzhou, 2023.10-2024.7 
++ Research assistant, Tsinghua University & Hong Kong University of Science and Technology-Guangzhou, 2023.10-2024.7 
 
 <!-- ```blog-bib
 @misc{Example1,
