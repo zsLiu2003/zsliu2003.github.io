@@ -20,7 +20,6 @@ I am the first year Ph.D. student at the [Department of Computer Science and Eng
 My research focuses on the intersection of AI for Security and Security for AI.
 On the AI for Security side, I leverage large language models (LLMs) and other machine learning techniques to detect and analyze security vulnerabilities in AI agents and traditional software systems.
 On the Security for AI side, I investigate methods to safeguard LLMs themselves, addressing challenges such as watermark robustness, privacy leakage, and prompt injection attacks.
-
 I worked with with [Prof. Xinlei He](https://xinleihe.github.io/) and [Prof. Tianshuo Cong](https://tianshuocong.github.io/) from 2023.10 to 2024.7.
 
 I can be reached at <span id="_eml" class="gl-eml">ang.sagapo at gmail dot com</span>, [google scholar](https://scholar.google.com/citations?user=8fY3920AAAAJ&hl=zh-CN), [github](https://github.com/zsLiu2003).
