@@ -15,7 +15,7 @@
 
 <figure class="gl-page-background gl-float-right gl-image-box" style="text-align: center;"><img src="assets/images/photo1.png" alt="A photo of J. Doe" width="160" height="185" style="max-width: 160px;" /></figure>
 
-I am the first year Ph.D. student at the [Department of Computer Science and Engineering](https://cse.hkust.edu.hk/), Hong Kong University of Science and Technology (HKUST), supervised by [Prof. Dongdong She](https://cse.hkust.edu.hk/~dongdong/).
+I am a first year Ph.D. student at the [Department of Computer Science and Engineering](https://cse.hkust.edu.hk/), Hong Kong University of Science and Technology (HKUST), supervised by [Prof. Dongdong She](https://cse.hkust.edu.hk/~dongdong/).
 
 My research focuses on the intersection of AI for Security and Security for AI.
 On the AI for Security side, I leverage large language models (LLMs) and other machine learning techniques to detect and analyze security vulnerabilities in AI agents and traditional software systems.
