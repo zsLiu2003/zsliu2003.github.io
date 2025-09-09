@@ -18,9 +18,9 @@
 I am a first year Ph.D. student at the [Department of Computer Science and Engineering](https://cse.hkust.edu.hk/), Hong Kong University of Science and Technology (HKUST), supervised by [Prof. Dongdong She](https://cse.hkust.edu.hk/~dongdong/).
 Before coming to HKUST, I earned my bachelor’s degree at Xidian University.
 
-My research focuses on the intersection of AI for Security and Security for AI.
+<!-- My research focuses on the intersection of AI for Security and Security for AI.
 On the AI for Security side, I leverage large language models (LLMs) and other machine learning techniques to detect and analyze security vulnerabilities in AI agents and traditional software systems.
-On the Security for AI side, I investigate methods to safeguard LLMs themselves, addressing challenges such as watermark robustness, privacy leakage, and prompt injection attacks.
+On the Security for AI side, I investigate methods to safeguard LLMs themselves, addressing challenges such as watermark robustness, privacy leakage, and prompt injection attacks. -->
 I worked with with [Prof. Xinlei He](https://xinleihe.github.io/) and [Prof. Tianshuo Cong](https://tianshuocong.github.io/) from 2023.10 to 2024.7.
 
 I can be reached at <span id="_eml" class="gl-eml">zliuhi at cse dot ust dot hk</span>, [google scholar](https://scholar.google.com/citations?user=8fY3920AAAAJ&hl=zh-CN), [github](https://github.com/zsLiu2003).
@@ -74,6 +74,12 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
 ```blog-bib
 
 @pub{
+    author = {Yu Liu and Yuchong Xie and Mingyu Luo and \textbf{Zesen Liu} and Zhixiang Zhang and Kaikai Zhang and Zongjie Li and Ping Chen and Shuai Wang and Dongdong She},
+    title={Exploit Tool Invocation Prompt for Tool Behavior Hijacking in LLM-Based Agentic System},
+    biosite_url = {https://arxiv.org/abs/2509.05755},
+}
+
+@pub{
     author = {\textbf{Zesen Liu} and Tianshuo Cong and Xinlei He and Qi Li},
     title = {On Evaluating The Performance of Watermarked Machine-Generated Texts Under Adversarial Attacks},
     biosite_url = {https://arxiv.org/abs/2407.04794},
@@ -113,10 +119,11 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
 ``` -->
 
 ## Honors and Awards
++ 2025.06 Overseas Study Scholarship in Xidian University
 + 2024.11 Gratitude to Chinese Modern Scientists Scholarship
 + 2024.10 National Scholarship
 + 2024.06 Qi'an Xin First Prize Scholarship
-+ 2023.11 Third Prize of National Cryptography Competition 
++ 2023.11 Third Prize of National Cryptography Competition
 
 ## Experience
 + Research assistant, Tsinghua University & Hong Kong University of Science and Technology-Guangzhou, 2023.10-2024.7 
@@ -158,7 +165,9 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
 }
 ``` -->
 
-<!-- 
+
 ## Academic Service
 
-## Teaching Experience -->
++ Sub-Reviewer of FSE '25, Oakland'25, ARR May'25
+
+<!-- ## Teaching Experience -->
