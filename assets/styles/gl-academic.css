@@ -72,7 +72,8 @@ html:lang(zh),
 
 .gl-body-wrapper
 {
-    max-width: 40rem;
+    /* Wider than a typical narrow column so long publication titles stay on one line when possible. */
+    max-width: min(68rem, 94vw);
     padding: 12px 14px;
 }
 
