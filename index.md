@@ -190,6 +190,6 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
 
 ## Academic Service
 + Reviewer, ICML '2026
-+ Sub-Reviewer of ISSTA '2026, FSE '25, Oakland'25, ARR May'25
++ Sub-Reviewer of ISSTA '2026, FSE '25, Oakland'25
 
 <!-- ## Teaching Experience -->
