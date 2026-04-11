@@ -15,7 +15,7 @@
 
 <figure class="gl-page-background gl-float-right gl-image-box" style="text-align: center;"><img src="assets/images/photo1.png" alt="A photo of J. Doe" width="160" height="185" style="max-width: 160px;" /></figure>
 
-I am a first year Ph.D. student at the [Department of Computer Science and Engineering](https://cse.hkust.edu.hk/), Hong Kong University of Science and Technology (HKUST), supervised by [Prof. Dongdong She](https://cse.hkust.edu.hk/~dongdong/).
+I am a first year Ph.D. student at [CSE Department, HKUST](https://cse.hkust.edu.hk/),supervised by [Prof. Dongdong She](https://cse.hkust.edu.hk/~dongdong/).
 Before coming to HKUST, I earned my bachelor’s degree at Xidian University.
 
 My research focuses on the **security of LLM-powered systems** in realistic deployments. I study how these systems fail under adversaries and how to evaluate and secure these systems at deployment level—threat models.
@@ -189,7 +189,7 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
 
 
 ## Academic Service
-+ Reviewer, ISSTA 2026
-+ Sub-Reviewer of FSE '25, Oakland'25, ARR May'25
++ Reviewer, ICML '2026
++ Sub-Reviewer of ISSTA '2026, FSE '25, Oakland'25, ARR May'25
 
 <!-- ## Teaching Experience -->
