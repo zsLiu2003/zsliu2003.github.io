@@ -48,8 +48,6 @@ eml.removeAttribute('class');
 {
 Use #bibitem_Venue_Key to refer to "Venue:Key".
 
-It is possible to have multiple BibTeX blocks, which will be rendered independently. For example, you might want to have one block for each of "Publications", "Pre-prints", and "Manuscripts".
-
 To support more information links (e.g., add "slides" or "pdf" links),
 see "builder/marked.0.3.6/bibtex-service.js" line 109.
 }
@@ -67,11 +65,6 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
     biosite_url = {https://dl.acm.org/doi/abs/10.1145/3709708},
     biosite_venue = {ACM SIGMOD International Conference on Management of Data (SIGMOD'25)},
 }
-```
-
-## Pre-prints
-
-```blog-bib
 
 @pub{
     author = {Yuchong Xie and Mingyu Luo and \textbf{Zesen Liu} and Zhixiang Zhang and Kaikai Zhang and Yu Liu and Zongjie Li and Ping Chen and Shuai Wang and Dongdong She},
