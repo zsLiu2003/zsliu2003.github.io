@@ -1,4 +1,4 @@
-/* Academic CV: restrained typography, paper-like background, narrower measure. */
+/* Academic CV: restrained typography, document-style layout, readable measure. */
 
 html,
 body
@@ -16,10 +16,11 @@ body
     }
 }
 
+/* Page = subtle canvas; main column = paper card (clearer overall structure). */
 body,
 .gl-page-background
 {
-    background: #ffffff;
+    background: #f0f0ee;
 }
 
 .gl-entry
@@ -72,17 +73,34 @@ html:lang(zh),
 
 .gl-body-wrapper
 {
-    /* Wider than a typical narrow column so long publication titles stay on one line when possible. */
-    max-width: min(68rem, 94vw);
-    padding: 12px 14px;
+    /* Comfortable reading width; long titles handled via bib typography, not ultra-wide page. */
+    max-width: min(50rem, 92vw);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 1rem 1rem 1.5rem;
+    background: #ffffff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
 }
 
-@media (min-width: 500px)
+@media (min-width: 600px)
 {
     .gl-body-wrapper
     {
-        padding: 16px clamp(1rem, 4vw, 2rem);
+        margin-top: 1.25rem;
+        margin-bottom: 2rem;
+        padding: 1.35rem 1.5rem 2rem;
+        border-radius: 2px;
     }
+}
+
+/* Header block: separate from body content. */
+#post-metadata
+{
+    padding-bottom: 0.85rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #e6e6e4;
 }
 
 #post-metadata > h1
@@ -91,12 +109,39 @@ html:lang(zh),
     font-weight: 600;
     letter-spacing: -0.015em;
     line-height: 1.3;
+    margin-top: 0;
 }
 
 .gl-entry-metadata-box
 {
-    font-size: 0.9em;
+    font-size: 0.88em;
     color: #5c5c5c;
+    margin-top: 0.35rem;
+}
+
+/* Clear floated photo so sections below align to full column width. */
+#post-content::after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+article#post-content
+{
+    padding-top: 0.15rem;
+}
+
+/* Section headings: clearer vertical rhythm between bio and lists. */
+.gl-entry article h2
+{
+    margin-top: 1.35rem;
+    padding-top: 0.35rem;
+}
+
+article#post-content > h2:first-of-type
+{
+    margin-top: 1.05rem;
 }
 
 .gl-entry h1
@@ -172,17 +217,86 @@ html:lang(zh),
     color: #3d3d3d;
 }
 
+/* Publications: use horizontal space efficiently + predictable wraps for long titles. */
+.gl-bibtex-bst-bio
+{
+    margin-top: 0.75rem;
+    margin-bottom: 1.25rem;
+}
+
+.gl-bibtex-bst-bio > .gl-bibtex-entry
+{
+    margin-top: 0.45em;
+    margin-bottom: 0.65em;
+}
+
 .gl-bibtex-bst-bio > .gl-bibtex-notfirstentry
 {
-    border-top-color: #e0e0e0;
+    border-top-color: #dcdcd8;
+    padding-top: 0.65em;
+}
+
+/* Default theme indents each line; tightening gives long titles more room without widening the page. */
+.gl-bibtex-entry-title,
+.gl-bibtex-entry-authors,
+.gl-bibtex-entry-info,
+.gl-bibtex-entry-extra
+{
+    padding-left: 0.35em;
 }
 
 .gl-bibtex-entry-title
 {
     font-weight: 600;
+    font-size: 0.97em;
+    line-height: 1.42;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    overflow-wrap: break-word;
+}
+
+.gl-bibtex-entry-authors,
+.gl-bibtex-entry-info
+{
+    line-height: 1.45;
 }
 
 .gl-bibtex-entry-venue
 {
     font-weight: 600;
+}
+
+footer.gl-footer-far
+{
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid #ececea;
+    font-size: 0.88em;
+    color: #666;
+}
+
+footer.gl-footer-far p
+{
+    margin: 0.35em 0;
+}
+
+@media print
+{
+    body,
+    .gl-page-background
+    {
+        background: #fff !important;
+    }
+
+    .gl-body-wrapper
+    {
+        box-shadow: none !important;
+        margin: 0 !important;
+        border-radius: 0 !important;
+    }
+
+    footer.gl-footer-far
+    {
+        border-top-color: #ccc;
+    }
 }
