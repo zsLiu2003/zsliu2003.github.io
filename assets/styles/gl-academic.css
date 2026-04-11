@@ -245,9 +245,10 @@ article#post-content > h2:first-of-type
     padding-left: 0.35em;
 }
 
+/* Emphasize paper title; keep venue (conference) in regular weight. */
 .gl-bibtex-entry-title
 {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 0.97em;
     line-height: 1.42;
     hyphens: auto;
@@ -263,7 +264,7 @@ article#post-content > h2:first-of-type
 
 .gl-bibtex-entry-venue
 {
-    font-weight: 600;
+    font-weight: 400;
 }
 
 footer.gl-footer-far
