@@ -1,0 +1,187 @@
+/* Academic CV: restrained typography, paper-like background, narrower measure. */
+
+html,
+body
+{
+    font-size: 15px;
+    line-height: 1.55;
+}
+
+@media (min-width: 500px)
+{
+    html,
+    body
+    {
+        font-size: 15px;
+    }
+}
+
+body,
+.gl-page-background
+{
+    background: #ffffff;
+}
+
+.gl-entry
+{
+    color: #1a1a1a;
+}
+
+html,
+[lang]:not(:lang(zh)):not(pre):not(code):not(samp):not(kbd):not(var)
+{
+    font-family:
+        "Palatino Linotype", Palatino, "Book Antiqua",
+        "Liberation Serif", Cambria, Georgia,
+        "Times New Roman", Times,
+        "Songti SC", "STSong", SimSun,
+        serif;
+}
+
+html:lang(zh),
+[lang]:lang(zh):not(pre):not(code):not(samp):not(kbd):not(var)
+{
+    font-family:
+        "Songti SC", "STSong", "STKaiti", "KaiTi", SimSun,
+        "Palatino Linotype", Palatino, Georgia,
+        serif;
+}
+
+@media (min-resolution: 140dpi)
+{
+    html,
+    [lang]:not(:lang(zh)):not(pre):not(code):not(samp):not(kbd):not(var)
+    {
+        font-family:
+            "Palatino Linotype", Palatino, "Book Antiqua",
+            "Liberation Serif", Cambria, Georgia,
+            "Times New Roman", Times,
+            "Songti SC", "STSong", DengXian, SimSun,
+            serif;
+    }
+
+    html:lang(zh),
+    [lang]:lang(zh):not(pre):not(code):not(samp):not(kbd):not(var)
+    {
+        font-family:
+            "Songti SC", "STSong", DengXian, SimSun,
+            "Palatino Linotype", Palatino, Georgia,
+            serif;
+    }
+}
+
+.gl-body-wrapper
+{
+    max-width: 40rem;
+    padding: 12px 14px;
+}
+
+@media (min-width: 500px)
+{
+    .gl-body-wrapper
+    {
+        padding: 16px clamp(1rem, 4vw, 2rem);
+    }
+}
+
+#post-metadata > h1
+{
+    font-size: 1.45rem;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    line-height: 1.3;
+}
+
+.gl-entry-metadata-box
+{
+    font-size: 0.9em;
+    color: #5c5c5c;
+}
+
+.gl-entry h1
+{
+    font-size: 1.35em;
+    font-weight: 600;
+}
+
+.gl-entry h2
+{
+    font-size: 1.18em;
+    font-weight: 600;
+}
+
+.gl-entry h3
+{
+    font-size: 1.08em;
+}
+
+.gl-entry h4
+{
+    font-size: 1.02em;
+}
+
+.gl-entry h5
+{
+    font-size: 0.98em;
+}
+
+.gl-entry h6
+{
+    font-size: 0.95em;
+}
+
+.gl-entry h1,
+.gl-entry h2,
+.gl-entry h3,
+.gl-entry h4,
+.gl-entry h5,
+.gl-entry h6
+{
+    margin-top: 0.85em;
+    margin-bottom: 0.4em;
+    line-height: 1.35;
+}
+
+.gl-entry p,
+.gl-entry table
+{
+    margin-top: 0.65em;
+    margin-bottom: 0.65em;
+}
+
+.gl-image-box
+{
+    padding: 0.65em;
+}
+
+.gl-entry a[href]:link,
+.gl-entry a[href]:visited,
+.gl-entry a[href]:hover
+{
+    color: #1a4480;
+}
+
+.gl-entry a[href]:active
+{
+    color: #0d284d;
+}
+
+.gl-entry blockquote
+{
+    color: #3d3d3d;
+}
+
+.gl-bibtex-bst-bio > .gl-bibtex-notfirstentry
+{
+    border-top-color: #e0e0e0;
+}
+
+.gl-bibtex-entry-title
+{
+    font-weight: 600;
+}
+
+.gl-bibtex-entry-venue
+{
+    font-weight: 600;
+}
