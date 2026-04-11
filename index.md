@@ -40,7 +40,7 @@ eml.removeAttribute('class');
 
 <!--This is an example personal homepage built with [bio-site](https://github.com/GeeLaw/bio-site). It features simplicity and integration with BibTeX. -->
 
-## Publications
+## Publications and Preprints
 
 ```blog-bib
 
@@ -53,10 +53,27 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
 }
 
 @pub{
-    author = {Tianshuo Cong and Delong Ran and \textbf{Zesen Liu} and Xinlei He and Yichen Gong and Jinyuan Liu and Qi Li and Anyu Wang and Xiaoyun Wang},
-    title = {Have You Merged My Model? On The Robustness of Large Language Model IP Protection Methods Against Model Merging},
-    biosite_url = {https://dl.acm.org/doi/abs/10.1145/3689217.3690614},
-    biosite_venue = {The 1th ACM Workshop On Large AI Systems And Models With Privacy And Safety Analysis, co-located with CCS (CCS-LAMPS'24), Salt Lake City, USA. (Best paper award)},
+    author = {Zhixiang Zhang and \textbf{Zesen Liu} and Yuchong Xie and Quanfeng Huang and Dongdong She},
+    title = {From Similarity to Vulnerability: Key Collision Attack on LLM Semantic Caching},
+    biosite_url = {https://arxiv.org/abs/2601.23088},
+}
+
+@pub{
+    author = {Yuchong Xie and \textbf{Zesen Liu} and Mingyu Luo and Zhixiang Zhang and Kaikai Zhang and Yuanyuan Yuan and Zongjie Li and Ping Chen and Shuai Wang and Dongdong She},
+    title = {QueryIPI: Query-agnostic Indirect Prompt Injection on Coding Agents},
+    biosite_url = {https://arxiv.org/abs/2510.23675},
+}
+
+@pub{
+    author = {\textbf{Zesen Liu} and Zhixiang Zhang and Yuchong Xie and Dongdong She},
+    title = {CompressionAttack: Exploiting Prompt Compression as a New Attack Surface in LLM-Powered Agents},
+    biosite_url = {https://arxiv.org/abs/2510.22963},
+}
+
+@pub{
+    author = {Yuchong Xie and Mingyu Luo and \textbf{Zesen Liu} and Zhixiang Zhang and Kaikai Zhang and Yu Liu and Zongjie Li and Ping Chen and Shuai Wang and Dongdong She},
+    title = {Red-Teaming Coding Agents from a Tool-Invocation Perspective: An Empirical Security Assessment},
+    biosite_url = {https://arxiv.org/abs/2509.05755},
 }
 
 @pub{
@@ -67,9 +84,10 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
 }
 
 @pub{
-    author = {Yuchong Xie and Mingyu Luo and \textbf{Zesen Liu} and Zhixiang Zhang and Kaikai Zhang and Yu Liu and Zongjie Li and Ping Chen and Shuai Wang and Dongdong She},
-    title={Exploit Tool Invocation Prompt for Tool Behavior Hijacking in LLM-Based Agentic System},
-    biosite_url = {https://arxiv.org/abs/2509.05755},
+    author = {Tianshuo Cong and Delong Ran and \textbf{Zesen Liu} and Xinlei He and Yichen Gong and Jinyuan Liu and Qi Li and Anyu Wang and Xiaoyun Wang},
+    title = {Have You Merged My Model? On The Robustness of Large Language Model IP Protection Methods Against Model Merging},
+    biosite_url = {https://dl.acm.org/doi/abs/10.1145/3689217.3690614},
+    biosite_venue = {The 1th ACM Workshop On Large AI Systems And Models With Privacy And Safety Analysis, co-located with CCS (CCS-LAMPS'24), Salt Lake City, USA. (Best paper award)},
 }
 
 @pub{
@@ -119,7 +137,8 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
 + 2023.11 Third Prize of National Cryptography Competition
 
 ## Experience
-+ Research assistant, Tsinghua University & Hong Kong University of Science and Technology-Guangzhou, 2023.10-2024.7 
++ Reviewer, ISSTA 2026
++ Research assistant, Tsinghua University & Hong Kong University of Science and Technology-Guangzhou, 2023.10-2024.7
 
 <!-- ```blog-bib
 @misc{Example1,
