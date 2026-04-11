@@ -15,12 +15,12 @@
 
 <figure class="gl-page-background gl-float-right gl-image-box" style="text-align: center;"><img src="assets/images/photo1.png" alt="A photo of J. Doe" width="160" height="185" style="max-width: 160px;" /></figure>
 
-I am a first year Ph.D. student at [CSE Department, HKUST](https://cse.hkust.edu.hk/),supervised by [Prof. Dongdong She](https://cse.hkust.edu.hk/~dongdong/).
+I am a first year Ph.D. student at [CSE Department, HKUST](https://cse.hkust.edu.hk/), supervised by [Prof. Dongdong She](https://cse.hkust.edu.hk/~dongdong/).
 Before coming to HKUST, I earned my bachelor’s degree at Xidian University.
 
 My research focuses on the **security of LLM-powered systems** in realistic deployments. I study how these systems fail under adversaries and how to evaluate and secure these systems at deployment level—threat models.
 
-**Currently** I am investigating the security of **prompt compression** in **long-context**, **agentic** systems.
+Currently, I am investigating the security of **prompt compression** in **long-context**, **agentic** systems.
 
 Previously, I worked with [Prof. Xinlei He](https://xinleihe.github.io/) and [Prof. Tianshuo Cong](https://tianshuocong.github.io/) to study the watermark for LLM.
 
