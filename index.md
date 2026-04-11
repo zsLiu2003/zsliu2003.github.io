@@ -147,7 +147,6 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
 + 2023.11 Third Prize of National Cryptography Competition
 
 ## Experience
-+ Reviewer, ISSTA 2026
 + Research assistant, Tsinghua University & Hong Kong University of Science and Technology-Guangzhou, 2023.10-2024.7
 
 <!-- ```blog-bib
@@ -189,7 +188,7 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
 
 
 ## Academic Service
-
++ Reviewer, ISSTA 2026
 + Sub-Reviewer of FSE '25, Oakland'25, ARR May'25
 
 <!-- ## Teaching Experience -->
