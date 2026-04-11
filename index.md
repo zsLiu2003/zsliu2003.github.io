@@ -3,10 +3,10 @@
     "name": "Zesen Liu",
     "title": "Hi, there!",
     "description": "J. Doe&#8217;s curriculum vitae.",
-    "url": "https://GeeLaw.github.io/bio-site/",
-    "assets": "https://GeeLaw.github.io/bio-site/assets",
+    "url": "https://zsliu2003.github.io/",
+    "assets": "https://zsliu2003.github.io/assets",
     "date-created": "2020-04-21",
-    "repo": "https://github.com/GeeLaw/bio-site",
+    "repo": "https://github.com/zsLiu2003/zsliu2003.github.io",
     "tilecolor": "#f2f2f2"
 }
 ```
