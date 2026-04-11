@@ -18,7 +18,9 @@
     --gl-pre-bg: #eceae7;
     --gl-shadow: rgba(0, 0, 0, 0.045);
     --gl-bib-meta-size: 0.86em;
-    --gl-bib-meta-color: #6a6967;
+    /* Slightly softer than title (#141414), not pale gray. */
+    --gl-bib-authors-color: #333333;
+    --gl-bib-info-color: #323232;
 }
 
 html,
@@ -337,7 +339,7 @@ article#post-content > h2:first-of-type
 .gl-bibtex-bst-bio .gl-bibtex-entry-authors
 {
     font-size: var(--gl-bib-meta-size);
-    color: var(--gl-text-muted);
+    color: var(--gl-bib-authors-color);
     line-height: 1.42;
     margin-top: 0.3em;
 }
@@ -356,7 +358,7 @@ article#post-content > h2:first-of-type
 .gl-bibtex-bst-bio .gl-bibtex-entry-info
 {
     font-size: calc(var(--gl-bib-meta-size) * 0.97);
-    color: var(--gl-bib-meta-color);
+    color: var(--gl-bib-info-color);
     line-height: 1.4;
     margin-top: 0.22em;
 }
