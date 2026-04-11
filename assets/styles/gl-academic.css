@@ -17,6 +17,8 @@
     --gl-code-fg: #3a3937;
     --gl-pre-bg: #eceae7;
     --gl-shadow: rgba(0, 0, 0, 0.045);
+    --gl-bib-meta-size: 0.86em;
+    --gl-bib-meta-color: #6a6967;
 }
 
 html,
@@ -299,26 +301,87 @@ article#post-content > h2:first-of-type
     padding-left: 0.35em;
 }
 
-/* Emphasize paper title; keep venue (conference) in regular weight. */
-.gl-bibtex-entry-title
+/* Publication list: strong title line; smaller, quieter authors + venue. */
+.gl-bibtex-bst-bio .gl-bibtex-entry-title
 {
+    font-size: 1.03em;
     font-weight: 700;
-    font-size: 0.97em;
-    line-height: 1.42;
+    line-height: 1.38;
+    letter-spacing: -0.015em;
     hyphens: auto;
     -webkit-hyphens: auto;
     overflow-wrap: break-word;
 }
 
-.gl-bibtex-entry-authors,
-.gl-bibtex-entry-info
+/* Title is a link: default ink, blue on hover (not “web link blue” for static state). */
+.gl-bibtex-bst-bio .gl-bibtex-entry-title a:link,
+.gl-bibtex-bst-bio .gl-bibtex-entry-title a:visited
 {
-    line-height: 1.45;
+    color: #141414;
+    font-weight: 700;
+    text-decoration: none;
 }
 
-.gl-bibtex-entry-venue
+.gl-bibtex-bst-bio .gl-bibtex-entry-title a:hover
+{
+    color: var(--gl-link-hover);
+    text-decoration: underline;
+    text-underline-offset: 0.12em;
+}
+
+.gl-bibtex-bst-bio .gl-bibtex-entry-title a:active
+{
+    color: var(--gl-link-active);
+}
+
+.gl-bibtex-bst-bio .gl-bibtex-entry-authors
+{
+    font-size: var(--gl-bib-meta-size);
+    color: var(--gl-text-muted);
+    line-height: 1.42;
+    margin-top: 0.3em;
+}
+
+.gl-bibtex-bst-bio .gl-bibtex-entry-authors a:link,
+.gl-bibtex-bst-bio .gl-bibtex-entry-authors a:visited
+{
+    color: var(--gl-link);
+}
+
+.gl-bibtex-bst-bio .gl-bibtex-entry-authors a:hover
+{
+    color: var(--gl-link-hover);
+}
+
+.gl-bibtex-bst-bio .gl-bibtex-entry-info
+{
+    font-size: calc(var(--gl-bib-meta-size) * 0.97);
+    color: var(--gl-bib-meta-color);
+    line-height: 1.4;
+    margin-top: 0.22em;
+}
+
+.gl-bibtex-bst-bio .gl-bibtex-entry-info a:link,
+.gl-bibtex-bst-bio .gl-bibtex-entry-info a:visited
+{
+    color: var(--gl-link);
+}
+
+.gl-bibtex-bst-bio .gl-bibtex-entry-info a:hover
+{
+    color: var(--gl-link-hover);
+}
+
+.gl-bibtex-bst-bio .gl-bibtex-entry-venue
 {
     font-weight: 400;
+}
+
+/* Keep \\textbf in venue readable at small size. */
+.gl-bibtex-bst-bio .gl-bibtex-entry-venue .gl-bibtex-tex-textbf,
+.gl-bibtex-bst-bio .gl-bibtex-entry-venue .gl-bibtex-tex-bf
+{
+    font-weight: 600;
 }
 
 footer.gl-footer-far
