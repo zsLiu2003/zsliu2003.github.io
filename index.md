@@ -57,7 +57,7 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
     author = {Zhixiang Zhang and \textbf{Zesen Liu} and Yuchong Xie and Quanfeng Huang and Dongdong She},
     title = {From Similarity to Vulnerability: Key Collision Attack on LLM Semantic Caching},
     biosite_url = {https://arxiv.org/abs/2601.23088},
-    biosite_venue = {\textbf{arXiv:2601.23088}},
+    biosite_venue = {\textbf{ICML'26}},
     biosite_arxiv = {2601.23088},
 }
 
@@ -65,7 +65,8 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
     author = {Yuchong Xie and \textbf{Zesen Liu} and Mingyu Luo and Zhixiang Zhang and Kaikai Zhang and Yuanyuan Yuan and Zongjie Li and Ping Chen and Shuai Wang and Dongdong She},
     title = {QueryIPI: Query-agnostic Indirect Prompt Injection on Coding Agents},
     biosite_url = {https://arxiv.org/abs/2510.23675},
-    biosite_venue = {\textbf{ICML'26}},
+    biosite_venue = {\textbf{arXiv:2510.23675}},
+    biosite_arxiv = {2510.23675},
 }
 
 @pub{
