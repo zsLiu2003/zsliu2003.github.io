@@ -54,6 +54,14 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
 }
 
 @pub{
+    author = {Mingyu Luo and Zihan Zhang and \textbf{Zesen Liu} and Yuchong Xie and Zhixiang Zhang and Dung Hiu Hilton Yeung and Wai Ip Lai and Ping Chen and Ming Wen and Dongdong She},
+    title = {When Alignment Isn't Enough: Response-Path Attacks on LLM Agents},
+    biosite_url = {https://arxiv.org/abs/2605.02187},
+    biosite_venue = {\textbf{arXiv:2605.02187}},
+    biosite_arxiv = {2605.02187},
+}
+
+@pub{
     author = {Zhixiang Zhang and \textbf{Zesen Liu} and Yuchong Xie and Quanfeng Huang and Dongdong She},
     title = {From Similarity to Vulnerability: Key Collision Attack on LLM Semantic Caching},
     biosite_url = {https://arxiv.org/abs/2601.23088},
