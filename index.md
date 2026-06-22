@@ -18,9 +18,9 @@
 I am a first year Ph.D. student at [CSE Department, HKUST](https://cse.hkust.edu.hk/), supervised by [Prof. Dongdong She](https://cse.hkust.edu.hk/~dongdong/).
 Before coming to HKUST, I earned my bachelor’s degree at Xidian University.
 
-My research focuses on the **security of LLM-powered systems** in realistic deployments. I study how these systems fail under adversaries and how to evaluate and secure these systems at deployment level—threat models.
+My research focuses on **agentic AI systems** in realistic deployments. I study how these systems use tools, memory, and long-context workflows, and how to evaluate their reliability and security in interactive environments.
 
-Currently, I am investigating the security of **prompt compression** in **long-context**, **agentic** systems.
+Currently, I am investigating **prompt compression** in **long-context**, **agentic** systems.
 
 Previously, I worked with [Prof. Xinlei He](https://xinleihe.github.io/) and [Prof. Tianshuo Cong](https://tianshuocong.github.io/) to study the watermark for LLM.
 
@@ -54,11 +54,11 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
 }
 
 @pub{
-    author = {Mingyu Luo and Zihan Zhang and \textbf{Zesen Liu} and Yuchong Xie and Zhixiang Zhang and Dung Hiu Hilton Yeung and Wai Ip Lai and Ping Chen and Ming Wen and Dongdong She},
-    title = {When Alignment Isn't Enough: Response-Path Attacks on LLM Agents},
-    biosite_url = {https://arxiv.org/abs/2605.02187},
-    biosite_venue = {\textbf{arXiv:2605.02187}},
-    biosite_arxiv = {2605.02187},
+    author = {\textbf{Zesen Liu} and Zhixiang Zhang and Yuchong Xie and Dongdong She},
+    title = {When Compression Becomes an Attack Surface: Black-Box Attacks on Prompt-Compressed LLM Agents},
+    biosite_url = {https://arxiv.org/abs/2510.22963},
+    biosite_venue = {\textbf{IEEE/ACM International Conference on Automated Software Engineering (ASE 2026)}},
+    biosite_arxiv = {2510.22963},
 }
 
 @pub{
@@ -67,30 +67,6 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
     biosite_url = {https://arxiv.org/abs/2601.23088},
     biosite_venue = {\textbf{ICML'26}},
     biosite_arxiv = {2601.23088},
-}
-
-@pub{
-    author = {Yuchong Xie and \textbf{Zesen Liu} and Mingyu Luo and Zhixiang Zhang and Kaikai Zhang and Yuanyuan Yuan and Zongjie Li and Ping Chen and Shuai Wang and Dongdong She},
-    title = {QueryIPI: Query-agnostic Indirect Prompt Injection on Coding Agents},
-    biosite_url = {https://arxiv.org/abs/2510.23675},
-    biosite_venue = {\textbf{arXiv:2510.23675}},
-    biosite_arxiv = {2510.23675},
-}
-
-@pub{
-    author = {\textbf{Zesen Liu} and Zhixiang Zhang and Yuchong Xie and Dongdong She},
-    title = {CompressionAttack: Exploiting Prompt Compression as a New Attack Surface in LLM-Powered Agents},
-    biosite_url = {https://arxiv.org/abs/2510.22963},
-    biosite_venue = {\textbf{arXiv:2510.22963}},
-    biosite_arxiv = {2510.22963},
-}
-
-@pub{
-    author = {Yuchong Xie and Mingyu Luo and \textbf{Zesen Liu} and Zhixiang Zhang and Kaikai Zhang and Yu Liu and Zongjie Li and Ping Chen and Shuai Wang and Dongdong She},
-    title = {Red-Teaming Coding Agents from a Tool-Invocation Perspective: An Empirical Security Assessment},
-    biosite_url = {https://arxiv.org/abs/2509.05755},
-    biosite_venue = {\textbf{arXiv:2509.05755}},
-    biosite_arxiv = {2509.05755},
 }
 
 @pub{
@@ -105,6 +81,30 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
     title = {Have You Merged My Model? On The Robustness of Large Language Model IP Protection Methods Against Model Merging},
     biosite_url = {https://dl.acm.org/doi/abs/10.1145/3689217.3690614},
     biosite_venue = {\textbf{The 1th ACM Workshop On Large AI Systems And Models With Privacy And Safety Analysis, co-located with CCS (CCS-LAMPS'24), Salt Lake City, USA. (Best paper award)}},
+}
+
+@pub{
+    author = {Mingyu Luo and Zihan Zhang and \textbf{Zesen Liu} and Yuchong Xie and Zhixiang Zhang and Dung Hiu Hilton Yeung and Wai Ip Lai and Ping Chen and Ming Wen and Dongdong She},
+    title = {When Alignment Isn't Enough: Response-Path Attacks on LLM Agents},
+    biosite_url = {https://arxiv.org/abs/2605.02187},
+    biosite_venue = {\textbf{arXiv:2605.02187}},
+    biosite_arxiv = {2605.02187},
+}
+
+@pub{
+    author = {Yuchong Xie and \textbf{Zesen Liu} and Mingyu Luo and Zhixiang Zhang and Kaikai Zhang and Yuanyuan Yuan and Zongjie Li and Ping Chen and Shuai Wang and Dongdong She},
+    title = {QueryIPI: Query-agnostic Indirect Prompt Injection on Coding Agents},
+    biosite_url = {https://arxiv.org/abs/2510.23675},
+    biosite_venue = {\textbf{arXiv:2510.23675}},
+    biosite_arxiv = {2510.23675},
+}
+
+@pub{
+    author = {Yuchong Xie and Mingyu Luo and \textbf{Zesen Liu} and Zhixiang Zhang and Kaikai Zhang and Yu Liu and Zongjie Li and Ping Chen and Shuai Wang and Dongdong She},
+    title = {Red-Teaming Coding Agents from a Tool-Invocation Perspective: An Empirical Security Assessment},
+    biosite_url = {https://arxiv.org/abs/2509.05755},
+    biosite_venue = {\textbf{arXiv:2509.05755}},
+    biosite_arxiv = {2509.05755},
 }
 
 @pub{
@@ -197,7 +197,7 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
 
 
 ## Academic Service
-+ Reviewer, ICML '2026
-+ Sub-Reviewer of ISSTA '2026, FSE '25, Oakland'25
++ Reviewer, ICML'26
++ Sub-Reviewer of CCS'26, ISSTA'2026, FSE'25, Oakland'25
 
 <!-- ## Teaching Experience -->
