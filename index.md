@@ -57,7 +57,7 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
     author = {\textbf{Zesen Liu} and Zhixiang Zhang and Yuchong Xie and Dongdong She},
     title = {When Compression Becomes an Attack Surface: Black-Box Attacks on Prompt-Compressed LLM Agents},
     biosite_url = {https://arxiv.org/abs/2510.22963},
-    biosite_venue = {\textbf{IEEE/ACM International Conference on Automated Software Engineering (ASE 2026)}},
+    biosite_venue = {\textbf{IEEE/ACM International Conference on Automated Software Engineering (ASE'26)}},
     biosite_arxiv = {2510.22963},
 }
 
