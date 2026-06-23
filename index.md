@@ -54,6 +54,14 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
 }
 
 @pub{
+    author = {\textbf{Zesen Liu} and Zihan Zhang and Dongdong She},
+    title = {Safe to Check, Unsafe to Use: Relinking at the Compression Boundary of LLM Agents},
+    biosite_url = {https://arxiv.org/abs/2606.21732},
+    biosite_venue = {\textbf{arXiv:2606.21732}},
+    biosite_arxiv = {2606.21732},
+}
+
+@pub{
     author = {\textbf{Zesen Liu} and Zhixiang Zhang and Yuchong Xie and Dongdong She},
     title = {When Compression Becomes an Attack Surface: Black-Box Attacks on Prompt-Compressed LLM Agents},
     biosite_url = {https://arxiv.org/abs/2510.22963},
@@ -91,13 +99,6 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
     biosite_arxiv = {2605.02187},
 }
 
-@pub{
-    author = {\textbf{Zesen Liu} and Zihan Zhang and Dongdong She},
-    title = {Safe to Check, Unsafe to Use: Relinking at the Compression Boundary of LLM Agents},
-    biosite_url = {https://arxiv.org/abs/2606.21732},
-    biosite_venue = {\textbf{arXiv:2606.21732}},
-    biosite_arxiv = {2606.21732},
-}
 
 @pub{
     author = {Yuchong Xie and \textbf{Zesen Liu} and Mingyu Luo and Zhixiang Zhang and Kaikai Zhang and Yuanyuan Yuan and Zongjie Li and Ping Chen and Shuai Wang and Dongdong She},
