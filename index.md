@@ -81,7 +81,7 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
     author = {Yuchong Xie and Mingyu Luo and \textbf{Zesen Liu} and Zhixiang Zhang and Kaikai Zhang and Yu Liu and Zongjie Li and Ping Chen and Shuai Wang and Dongdong She},
     title = {Red-Teaming Coding Agents from a Tool-Invocation Perspective: An Empirical Security Assessment},
     biosite_url = {https://arxiv.org/abs/2509.05755},
-    biosite_venue = {\textbf{ACM SIGSOFT International Symposium on Software Testing and Analysis （ISSTA'26}},
+    biosite_venue = {\textbf{ACM SIGSOFT International Symposium on Software Testing and Analysis （ISSTA'26)}},
     biosite_arxiv = {2509.05755},
 }
 
