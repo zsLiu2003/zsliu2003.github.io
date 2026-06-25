@@ -78,6 +78,14 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
 }
 
 @pub{
+    author = {Yuchong Xie and Mingyu Luo and \textbf{Zesen Liu} and Zhixiang Zhang and Kaikai Zhang and Yu Liu and Zongjie Li and Ping Chen and Shuai Wang and Dongdong She},
+    title = {Red-Teaming Coding Agents from a Tool-Invocation Perspective: An Empirical Security Assessment},
+    biosite_url = {https://arxiv.org/abs/2509.05755},
+    biosite_venue = {\textbf{ACM SIGSOFT International Symposium on Software Testing and Analysis （ISSTA'26}},
+    biosite_arxiv = {2509.05755},
+}
+
+@pub{
     author = {Zikai Ye and Xiangyu Wang and \textbf{Zesen Liu} and Dan Zhu and Jianfeng Ma},
     title = {OBIR-tree: An Efficient Oblivious Index for Spatial Keyword Queries on Secure Enclaves},
     biosite_url = {https://dl.acm.org/doi/abs/10.1145/3709708},
@@ -106,14 +114,6 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
     biosite_url = {https://arxiv.org/abs/2510.23675},
     biosite_venue = {\textbf{arXiv:2510.23675}},
     biosite_arxiv = {2510.23675},
-}
-
-@pub{
-    author = {Yuchong Xie and Mingyu Luo and \textbf{Zesen Liu} and Zhixiang Zhang and Kaikai Zhang and Yu Liu and Zongjie Li and Ping Chen and Shuai Wang and Dongdong She},
-    title = {Red-Teaming Coding Agents from a Tool-Invocation Perspective: An Empirical Security Assessment},
-    biosite_url = {https://arxiv.org/abs/2509.05755},
-    biosite_venue = {\textbf{arXiv:2509.05755}},
-    biosite_arxiv = {2509.05755},
 }
 
 @pub{
