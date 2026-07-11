@@ -122,7 +122,11 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
 
 ## Honors and Awards
 
++ 2026.07 Research Travel Grant
++ 2026.05 Gold Reviewer of ICML
 + 2025.06 Overseas Study Scholarship
 + 2024.11 Gratitude to Chinese Modern Scientists Scholarship
++ 2024.10 Best Paper Award of CCS-LAMPS
 + 2024.10 National Scholarship
-+ 2024.06 Qi'an Xin First Prize Scholarship
++ 2024.06 Qi'an Xin Scholarship
++ 2021-2024 First Prize Scholarship
