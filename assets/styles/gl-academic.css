@@ -2,16 +2,16 @@
 
 :root
 {
-    --gl-page-canvas: #f5f4f2;
+    --gl-page-canvas: #fbfbfb;
     --gl-card-bg: #ffffff;
-    --gl-card-edge: #e4e3e0;
+    --gl-card-edge: #eeeeee;
     --gl-text: #222222;
     --gl-text-muted: #5e5d5b;
-    --gl-line: #e0dfdc;
-    --gl-line-bib: #d8d7d4;
-    --gl-link: #153e63;
-    --gl-link-hover: #1a5080;
-    --gl-link-active: #0f2d46;
+    --gl-line: #e8e8e8;
+    --gl-line-bib: #e9e9e9;
+    --gl-link: #005eb8;
+    --gl-link-hover: #004b93;
+    --gl-link-active: #003a73;
     --gl-quote: #454442;
     --gl-code-bg: #f0efed;
     --gl-code-fg: #3a3937;
@@ -184,13 +184,13 @@ article#post-content > h2:first-of-type
 
 .gl-entry h2
 {
-    font-size: 1.18em;
-    font-weight: 600;
+    font-size: 1.34em;
+    font-weight: 650;
 }
 
 .gl-entry h3
 {
-    font-size: 1.08em;
+    font-size: 1.13em;
 }
 
 .gl-entry h4
@@ -287,14 +287,14 @@ article#post-content > h2:first-of-type
 
 .gl-bibtex-bst-bio > .gl-bibtex-entry
 {
-    margin-top: 0.45em;
-    margin-bottom: 0.65em;
+    margin-top: 0.55em;
+    margin-bottom: 0.85em;
 }
 
 .gl-bibtex-bst-bio > .gl-bibtex-notfirstentry
 {
-    border-top-color: var(--gl-line-bib);
-    padding-top: 0.65em;
+    border-top: none;
+    padding-top: 0.15em;
 }
 
 /* Default theme indents each line; tightening gives long titles more room without widening the page. */
@@ -318,11 +318,11 @@ article#post-content > h2:first-of-type
     overflow-wrap: break-word;
 }
 
-/* Title is a link: default ink, blue on hover (not “web link blue” for static state). */
+/* Publication titles remain visibly linked. */
 .gl-bibtex-bst-bio .gl-bibtex-entry-title a:link,
 .gl-bibtex-bst-bio .gl-bibtex-entry-title a:visited
 {
-    color: #141414;
+    color: var(--gl-link);
     font-weight: 700;
     text-decoration: none;
 }
@@ -438,4 +438,51 @@ footer.gl-footer-far p
     {
         border-top-color: var(--gl-line-bib);
     }
+}
+
+
+/* Homepage Markdown rendering additions */
+article#post-content > p:first-child
+{
+    float: right;
+    margin: 0.05rem 0 0.75rem 1rem;
+    padding: 0.65em;
+    border: 1px solid var(--gl-card-edge);
+    background: var(--gl-page-canvas);
+    text-align: center;
+}
+
+article#post-content > p:first-child img
+{
+    display: block;
+    width: 160px;
+    max-width: 34vw;
+    height: auto;
+}
+
+@media (max-width: 520px)
+{
+    article#post-content > p:first-child
+    {
+        float: none;
+        width: max-content;
+        max-width: 100%;
+        margin: 0.25rem auto 0.85rem;
+    }
+
+    article#post-content > p:first-child img
+    {
+        max-width: min(160px, 70vw);
+    }
+}
+
+article#post-content h2 + h3,
+article#post-content h3 + h3
+{
+    margin-top: 0.65rem;
+}
+
+article#post-content h3 + p
+{
+    margin-top: 0.3rem;
 }
