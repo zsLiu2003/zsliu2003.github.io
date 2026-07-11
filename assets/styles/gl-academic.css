@@ -52,46 +52,13 @@ body,
 }
 
 html,
-[lang]:not(:lang(zh)):not(pre):not(code):not(samp):not(kbd):not(var)
+[lang]:not(pre):not(code):not(samp):not(kbd):not(var)
 {
     font-family:
-        "Palatino Linotype", Palatino, "Book Antiqua",
-        "Liberation Serif", Cambria, Georgia,
-        "Times New Roman", Times,
-        "Songti SC", "STSong", SimSun,
-        serif;
-}
-
-html:lang(zh),
-[lang]:lang(zh):not(pre):not(code):not(samp):not(kbd):not(var)
-{
-    font-family:
-        "Songti SC", "STSong", "STKaiti", "KaiTi", SimSun,
-        "Palatino Linotype", Palatino, Georgia,
-        serif;
-}
-
-@media (min-resolution: 140dpi)
-{
-    html,
-    [lang]:not(:lang(zh)):not(pre):not(code):not(samp):not(kbd):not(var)
-    {
-        font-family:
-            "Palatino Linotype", Palatino, "Book Antiqua",
-            "Liberation Serif", Cambria, Georgia,
-            "Times New Roman", Times,
-            "Songti SC", "STSong", DengXian, SimSun,
-            serif;
-    }
-
-    html:lang(zh),
-    [lang]:lang(zh):not(pre):not(code):not(samp):not(kbd):not(var)
-    {
-        font-family:
-            "Songti SC", "STSong", DengXian, SimSun,
-            "Palatino Linotype", Palatino, Georgia,
-            serif;
-    }
+        -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans",
+        "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC",
+        sans-serif;
 }
 
 .gl-body-wrapper

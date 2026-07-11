@@ -19,7 +19,7 @@ I am a first year Ph.D. student in the [CSE Department at HKUST](https://cse.hku
 
 My research studies how to make the reasoning processes of agentic systems more reliable and safe. I pursue two complementary directions: designing system-level harnesses that encode explicit human knowledge and rules, and developing agentic reinforcement learning methods that improve planning, verification, tool use, and action through interaction with environments.
 
-Contact: zliuhi at cse dot ust dot hk · [Google Scholar](https://scholar.google.com/citations?user=8fY3920AAAAJ&hl=zh-CN) · [GitHub](https://github.com/zsLiu2003)
+Contact: zliuhi at cse dot ust dot hk, [Google Scholar](https://scholar.google.com/citations?user=8fY3920AAAAJ&hl=zh-CN), [GitHub](https://github.com/zsLiu2003)
 
 <!-- ## Research
 
@@ -118,7 +118,7 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
 ## Academic Service
 
 + Reviewer, ICML 2026
-+ Sub-reviewer, CCS 2026, ISSTA 2026, FSE 2025, IEEE S&P 2025
++ Sub-reviewer, CCS 2026, ISSTA 2026, FSE 2025, S&P 2025
 
 ## Honors and Awards
 
