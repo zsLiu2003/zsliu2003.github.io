@@ -15,7 +15,7 @@
 
 ![Portrait of Zesen Liu](assets/images/photo1.png)
 
-I am a first year Ph.D. student in the [CSE Department at HKUST](https://cse.hkust.edu.hk/), supervised by [Prof. Dongdong She](https://cse.hkust.edu.hk/~dongdong/). Before coming to HKUST, I earned my bachelor's degree from Xidian University.
+I am a Ph.D. student in the [CSE Department at HKUST](https://cse.hkust.edu.hk/), supervised by [Prof. Dongdong She](https://cse.hkust.edu.hk/~dongdong/). Before coming to HKUST, I earned my bachelor's degree from Xidian University.
 
 My research studies how to make the reasoning processes of agentic systems more #reliable# and #safe#. I pursue two complementary directions: designing #system-level# guard that encode explicit human knowledge and rules, and developing #interactive environments# for agentic reinforcement learning that improve planning, verification, tool use, and action through long-horizon agentic reasoning process.
 
