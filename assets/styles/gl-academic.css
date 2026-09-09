@@ -453,3 +453,252 @@ article#post-content h3 + p
 {
     margin-top: 0.3rem;
 }
+
+/* Refined academic homepage layout */
+:root
+{
+    --gl-page-canvas: #ffffff;
+    --gl-card-bg: #ffffff;
+    --gl-card-edge: transparent;
+    --gl-text: #1f2937;
+    --gl-text-muted: #64748b;
+    --gl-line: #e5e7eb;
+    --gl-line-bib: #e5e7eb;
+    --gl-link: #2563a8;
+    --gl-link-hover: #163f73;
+    --gl-link-active: #102f56;
+    --gl-bib-meta-size: 0.9em;
+}
+
+html,
+body
+{
+    font-size: 16px;
+    line-height: 1.65;
+}
+
+body,
+.gl-page-background
+{
+    background: #ffffff;
+}
+
+.gl-body-wrapper
+{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 3.75rem 1.875rem 5rem;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.gl-main
+{
+    position: relative;
+}
+
+#post-metadata
+{
+    min-height: 2.8rem;
+    margin: 0 0 0.75rem 13.75rem;
+    padding: 0.15rem 0 0;
+}
+
+#post-metadata > h1
+{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.035em;
+    color: #111827;
+}
+
+article#post-content
+{
+    padding-top: 0;
+}
+
+article#post-content > p:first-child
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    float: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+}
+
+article#post-content > p:first-child img
+{
+    width: 180px;
+    max-width: none;
+    height: 213px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+article#post-content > p:nth-child(2),
+article#post-content > p:nth-child(3),
+article#post-content > p:nth-child(4)
+{
+    margin-left: 13.75rem;
+}
+
+article#post-content > p:nth-child(2)
+{
+    margin-top: 0;
+}
+
+article#post-content > p:nth-child(4)
+{
+    color: var(--gl-text-muted);
+    font-size: 0.93rem;
+}
+
+.gl-entry article h2,
+article#post-content > h2:first-of-type
+{
+    margin-top: 3.25rem;
+    margin-bottom: 1.15rem;
+    padding: 0;
+    border: 0;
+    color: #111827;
+    font-size: 1.28rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+
+article#post-content > h2:first-of-type
+{
+    margin-top: 3.75rem;
+}
+
+.gl-bibtex-bst-bio
+{
+    margin: 0;
+}
+
+.gl-bibtex-bst-bio > .gl-bibtex-entry,
+.gl-bibtex-bst-bio > .gl-bibtex-notfirstentry
+{
+    margin: 0;
+    padding: 0 0 1.65rem;
+    border: 0;
+}
+
+.gl-bibtex-entry-title,
+.gl-bibtex-entry-authors,
+.gl-bibtex-entry-info,
+.gl-bibtex-entry-extra
+{
+    padding-left: 0;
+}
+
+.gl-bibtex-entry-bullet
+{
+    display: none;
+}
+
+.gl-bibtex-bst-bio .gl-bibtex-entry-title
+{
+    color: #111827;
+    font-size: 1.06rem;
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: -0.012em;
+}
+
+.gl-bibtex-bst-bio .gl-bibtex-entry-title a,
+.gl-bibtex-bst-bio .gl-bibtex-entry-title a:link,
+.gl-bibtex-bst-bio .gl-bibtex-entry-title a:visited
+{
+    color: inherit;
+    text-decoration: none;
+}
+
+.gl-bibtex-bst-bio .gl-bibtex-entry-title a:hover
+{
+    color: var(--gl-link);
+    text-decoration: none;
+}
+
+.gl-bibtex-bst-bio .gl-bibtex-entry-authors
+{
+    margin-top: 0.38rem;
+    color: #475569;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.gl-bibtex-bst-bio .gl-bibtex-entry-info
+{
+    margin-top: 0.28rem;
+    color: #64748b;
+    font-size: 0.88rem;
+    line-height: 1.45;
+}
+
+article#post-content > ul
+{
+    margin: 0.25rem 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+article#post-content > ul > li
+{
+    margin: 0.48rem 0;
+    padding: 0;
+}
+
+@media (max-width: 700px)
+{
+    .gl-body-wrapper
+    {
+        padding: 2rem 1.25rem 3.5rem;
+    }
+
+    #post-metadata
+    {
+        min-height: 0;
+        margin-left: 0;
+        padding-top: 0;
+    }
+
+    #post-metadata > h1
+    {
+        font-size: 1.75rem;
+    }
+
+    article#post-content > p:first-child
+    {
+        position: static;
+        width: auto;
+        max-width: none;
+        margin: 1rem 0 1.4rem;
+        text-align: left;
+    }
+
+    article#post-content > p:first-child img
+    {
+        width: 150px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    article#post-content > p:nth-child(2),
+    article#post-content > p:nth-child(3),
+    article#post-content > p:nth-child(4)
+    {
+        margin-left: 0;
+    }
+
+    .gl-entry article h2,
+    article#post-content > h2:first-of-type
+    {
+        margin-top: 2.65rem;
+    }
+}
