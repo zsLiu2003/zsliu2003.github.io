@@ -71,8 +71,8 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
 
 ## Education
 
-+ Ph.D. Student in Computer Science and Engineering, The Hong Kong University of Science and Technology
-+ Bachelor's Degree, Xidian University
++ Ph.D. Student, HKUST, 2024 - Present
++ B.Eng., XDU, 2020 - 2024
 
 ## Experience
 
