@@ -69,13 +69,18 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
 
 ```
 
+## Education
+
++ Ph.D. Student in Computer Science and Engineering, The Hong Kong University of Science and Technology
++ Bachelor's Degree, Xidian University
+
 ## Experience
 
 + Research Assistant, Tsinghua University and HKUST(GZ), October 2023 - July 2024
 
 ## Academic Service
 
-+ Reviewer, ICML 2026
++ Reviewer, ICML 2026, NeurIPS 2026, AAAI 2026
 + Sub-reviewer, CCS 2026, ISSTA 2026, FSE 2025, S&P 2025
 
 ## Honors and Awards
