@@ -2,7 +2,7 @@
 {
     "name": "Zesen Liu",
     "title": "Zesen Liu",
-    "description": "Zesen Liu is a Ph.D. student at HKUST working on trustworthy agentic reasoning.",
+    "description": "Zesen Liu is a second-year Ph.D. student at HKUST researching AI and security.",
     "url": "https://zsliu2003.github.io/",
     "assets": "https://zsliu2003.github.io/assets",
     "date-created": "2020-04-21",
@@ -15,17 +15,13 @@
 
 ![Portrait of Zesen Liu](assets/images/photo1.png)
 
-I am a Ph.D. student in the [CSE Department at HKUST](https://cse.hkust.edu.hk/), supervised by [Prof. Dongdong She](https://cse.hkust.edu.hk/~dongdong/). Before coming to HKUST, I earned my bachelor's degree from Xidian University.
+I am a second-year Ph.D. student in the [CSE Department at HKUST](https://cse.hkust.edu.hk/), supervised by [Prof. Dongdong She](https://cse.hkust.edu.hk/~dongdong/). Before coming to HKUST, I earned my bachelor's degree from Xidian University.
 
-My research studies how to make the reasoning processes of agentic systems more **reliable** and **safe**. I pursue two complementary directions: designing **system-level harness** from human knowledge and rules, and developing **interactive environments** for **agentic reinforcement learning** that improve planning, verification, tool use, and action through long-horizon agentic reasoning process.
+I research AI and security.
 
 Contact: zliuhi at cse dot ust dot hk, [Google Scholar](https://scholar.google.com/citations?user=8fY3920AAAAJ&hl=zh-CN), [GitHub](https://github.com/zsLiu2003)
 
-<!-- ## Research
-
-My research connects two levels of intervention. At the system level, I study how harnesses, rules, tool interfaces, memory, and verification steps shape the information available to an agent before it acts. At the learning level, I am interested in how interaction trajectories, feedback, and reinforcement learning can teach agents better planning, verification, tool use, and action policies. The goal is to make reliability part of the agent's reasoning process rather than only an external filter after the fact. -->
-
-## Publications and Preprints
+## Publications
 
 <!-- ### Agentic AI and LLM Systems -->
 
@@ -40,35 +36,21 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
 }
 
 @pub{
-    author = {\textbf{Zesen Liu} and Zihan Zhang and Dongdong She},
-    title = {Safe to Check, Unsafe to Use: Relinking at the Compression Boundary of LLM Agents},
-    biosite_url = {https://arxiv.org/abs/2606.21732},
-    biosite_venue = {\textbf{arXiv:2606.21732}},
-    biosite_arxiv = {2606.21732},
-}
-
-@pub{
     author = {\textbf{Zesen Liu} and Zhixiang Zhang and Yuchong Xie and Dongdong She},
     title = {When Compression Becomes an Attack Surface: Black-Box Attacks on Prompt-Compressed LLM Agents},
-    biosite_url = {https://arxiv.org/abs/2510.22963},
     biosite_venue = {\textbf{IEEE/ACM International Conference on Automated Software Engineering (ASE 2026)}},
-    biosite_arxiv = {2510.22963},
 }
 
 @pub{
     author = {Zhixiang Zhang and \textbf{Zesen Liu} and Yuchong Xie and Quanfeng Huang and Dongdong She},
     title = {From Similarity to Vulnerability: Key Collision Attack on LLM Semantic Caching},
-    biosite_url = {https://arxiv.org/abs/2601.23088},
     biosite_venue = {\textbf{International Conference on Machine Learning (ICML 2026)}},
-    biosite_arxiv = {2601.23088},
 }
 
 @pub{
     author = {Yuchong Xie and Mingyu Luo and \textbf{Zesen Liu} and Zhixiang Zhang and Kaikai Zhang and Yu Liu and Zongjie Li and Ping Chen and Shuai Wang and Dongdong She},
     title = {Red-Teaming Coding Agents from a Tool-Invocation Perspective: An Empirical Security Assessment},
-    biosite_url = {https://arxiv.org/abs/2509.05755},
     biosite_venue = {\textbf{ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA 2026)}},
-    biosite_arxiv = {2509.05755},
 }
 
 @pub{
@@ -83,30 +65,6 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
     title = {OBIR-tree: An Efficient Oblivious Index for Spatial Keyword Queries on Secure Enclaves},
     biosite_url = {https://dl.acm.org/doi/abs/10.1145/3709708},
     biosite_venue = {\textbf{ACM SIGMOD International Conference on Management of Data (SIGMOD 2025)}},
-}
-
-@pub{
-    author = {Mingyu Luo and Zihan Zhang and \textbf{Zesen Liu} and Yuchong Xie and Zhixiang Zhang and Dung Hiu Hilton Yeung and Wai Ip Lai and Ping Chen and Ming Wen and Dongdong She},
-    title = {When Alignment Isn't Enough: Response-Path Attacks on LLM Agents},
-    biosite_url = {https://arxiv.org/abs/2605.02187},
-    biosite_venue = {\textbf{arXiv:2605.02187}},
-    biosite_arxiv = {2605.02187},
-}
-
-@pub{
-    author = {Yuchong Xie and \textbf{Zesen Liu} and Mingyu Luo and Zhixiang Zhang and Kaikai Zhang and Yuanyuan Yuan and Zongjie Li and Ping Chen and Shuai Wang and Dongdong She},
-    title = {QueryIPI: Query-agnostic Indirect Prompt Injection on Coding Agents},
-    biosite_url = {https://arxiv.org/abs/2510.23675},
-    biosite_venue = {\textbf{arXiv:2510.23675}},
-    biosite_arxiv = {2510.23675},
-}
-
-@pub{
-    author = {\textbf{Zesen Liu} and Tianshuo Cong and Xinlei He and Qi Li},
-    title = {On Evaluating The Performance of Watermarked Machine-Generated Texts Under Adversarial Attacks},
-    biosite_url = {https://arxiv.org/abs/2407.04794},
-    biosite_venue = {\textbf{arXiv:2407.04794}},
-    biosite_arxiv = {2407.04794},
 }
 
 ```
