@@ -71,8 +71,8 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
 
 ## Education
 
-+ Ph.D. Student, HKUST, 2024 - Present
-+ B.Eng., XDU, 2020 - 2024
++ Ph.D. Student, HKUST, 2025.09 - Present
++ B.Eng., Xidian University, 2021.09 - 2025.06
 
 ## Experience
 
