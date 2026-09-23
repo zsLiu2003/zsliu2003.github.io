@@ -42,6 +42,7 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
 @pub{
     author = {\textbf{Zesen Liu} and Zhixiang Zhang and Yuchong Xie and Dongdong She},
     title = {When Compression Becomes an Attack Surface: Black-Box Attacks on Prompt-Compressed LLM Agents},
+    biosite_url = {https://arxiv.org/abs/2510.22963},
     biosite_venue = {\textbf{IEEE/ACM International Conference on Automated Software Engineering (ASE 2026)}},
     biosite_extra = {\textbf{Distinguished Paper Award}},
 }
@@ -49,12 +50,14 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
 @pub{
     author = {Zhixiang Zhang and \textbf{Zesen Liu} and Yuchong Xie and Quanfeng Huang and Dongdong She},
     title = {From Similarity to Vulnerability: Key Collision Attack on LLM Semantic Caching},
+    biosite_url = {https://arxiv.org/abs/2601.23088},
     biosite_venue = {\textbf{International Conference on Machine Learning (ICML 2026)}},
 }
 
 @pub{
     author = {Yuchong Xie and Mingyu Luo and \textbf{Zesen Liu} and Zhixiang Zhang and Kaikai Zhang and Yu Liu and Zongjie Li and Ping Chen and Shuai Wang and Dongdong She},
     title = {Red-Teaming Coding Agents from a Tool-Invocation Perspective: An Empirical Security Assessment},
+    biosite_url = {https://arxiv.org/abs/2509.05755},
     biosite_venue = {\textbf{ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA 2026)}},
 }
 
