@@ -23,6 +23,10 @@ Contact: zliuhi at cse dot ust dot hk, [Google Scholar](https://scholar.google.c
 
 ## Publications
 
+<style>
+.gl-bibtex-entry-extra { color: #c62828; font-weight: 700; }
+</style>
+
 <!-- ### Agentic AI and LLM Systems -->
 
 ```blog-bib
@@ -39,6 +43,7 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
     author = {\textbf{Zesen Liu} and Zhixiang Zhang and Yuchong Xie and Dongdong She},
     title = {When Compression Becomes an Attack Surface: Black-Box Attacks on Prompt-Compressed LLM Agents},
     biosite_venue = {\textbf{IEEE/ACM International Conference on Automated Software Engineering (ASE 2026)}},
+    biosite_extra = {\textbf{Distinguished Paper Award}},
 }
 
 @pub{
@@ -57,7 +62,8 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
     author = {Tianshuo Cong and Delong Ran and \textbf{Zesen Liu} and Xinlei He and Yichen Gong and Jinyuan Liu and Qi Li and Anyu Wang and Xiaoyun Wang},
     title = {Have You Merged My Model? On The Robustness of Large Language Model IP Protection Methods Against Model Merging},
     biosite_url = {https://dl.acm.org/doi/abs/10.1145/3689217.3690614},
-    biosite_venue = {\textbf{The 1st ACM Workshop on Large AI Systems and Models with Privacy and Safety Analysis, co-located with ACM CCS 2024 (CCS-LAMPS 2024). Best Paper Award}},
+    biosite_venue = {\textbf{The 1st ACM Workshop on Large AI Systems and Models with Privacy and Safety Analysis, co-located with ACM CCS 2024 (CCS-LAMPS 2024)}},
+    biosite_extra = {\textbf{Best Paper Award}},
 }
 
 @pub{
@@ -80,11 +86,12 @@ see "builder/marked.0.3.6/bibtex-service.js" line 109.
 
 ## Academic Service
 
-+ Reviewer, ICML 2026, NeurIPS 2026, AAAI 2026
++ Reviewer, ICLR 2027, ICML 2026, NeurIPS 2026, AAAI 2026
 + Sub-reviewer, CCS 2026, ISSTA 2026, FSE 2025, S&P 2025
 
 ## Honors and Awards
 
++ 2026 Distinguished Paper Award of ASE
 + 2026.07 Research Travel Grant
 + 2026.05 Gold Reviewer of ICML
 + 2025.06 Overseas Study Scholarship
